@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "465444246445",
+    "firebase_url": "https://rateacher-1964a.firebaseio.com",
+    "project_id": "rateacher-1964a",
+    "storage_bucket": "rateacher-1964a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465444246445:android:67876c7a86e626dbe5c724",
+        "android_client_info": {
+          "package_name": "com.example.rateacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465444246445-t90p9s4e7ik4aeesbkcoqa0but3am9no.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rateacher",
+            "certificate_hash": "bd855c9b7d4d6461b943d201e6021d32bede2c4d"
+          }
+        },
+        {
+          "client_id": "465444246445-6k1n8h4sv8qida2av8le9n3a9np24fba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7kRS3avVSgxe6aFdMmdBGsGNc7ZKQC4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465444246445-6k1n8h4sv8qida2av8le9n3a9np24fba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
