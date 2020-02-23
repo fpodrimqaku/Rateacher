@@ -92,7 +92,7 @@ public class RestaurantActivity extends AppCompatActivity {
                         }
                         else
                         {
-                            //userName.setVisibility(View.VISIBLE);
+                            //userName.setVisibility(View.VISIBLE);//dfgdfg
                             //Toast.makeText(SettingsActivity.this, "Please set & update your profile information...", Toast.LENGTH_SHORT).show();
                         }
                     }
