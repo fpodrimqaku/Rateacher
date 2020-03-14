@@ -17,6 +17,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.rateacher.Adapters.ReservationAdapter;
+import com.example.rateacher.Authentication.Login.MainActivity;
 import com.example.rateacher.ListItems.Reservation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -93,7 +94,7 @@ fab.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 mAuth.signOut();
                 finish();
-                startActivity(new Intent(ProfileActivity.this,MainActivity.class));
+                startActivity(new Intent(ProfileActivity.this, MainActivity.class));
             }
         });
 

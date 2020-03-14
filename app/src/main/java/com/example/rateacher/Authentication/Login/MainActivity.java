@@ -1,4 +1,4 @@
-package com.example.rateacher;
+package com.example.rateacher.Authentication.Login;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -14,6 +14,11 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.rateacher.Authentication.Recover.ForgotPasswordActivity;
+import com.example.rateacher.Authentication.Register.RegisterActivity;
+import com.example.rateacher.ProfileActivity;
+import com.example.rateacher.R;
+import com.example.rateacher.UserInformation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -137,7 +142,7 @@ UserInformation.email=c_user.getEmail();
 
 
                                 // Log.d("blu3",c_user.getPhotoUrl().toString());
-                                startActivity(new Intent(MainActivity.this,ProfileActivity.class));
+                                startActivity(new Intent(MainActivity.this, ProfileActivity.class));
                                 finish();
 
 
