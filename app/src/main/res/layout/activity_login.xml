@@ -47,8 +47,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/appicon_trans"
-        tools:srcCompat="@drawable/appicon_trans" />
+        app:srcCompat="@drawable/student"
+        tools:srcCompat="@drawable/student" />
 
     <EditText
         android:id="@+id/et_Email"
